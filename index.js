@@ -28,3 +28,9 @@ function prependDriver() {
   newDrivers.unshift('Arnold')
   return newDrivers
 }
+
+function removeLastDriver() {
+  let newDrivers = drivers.slice()
+  newDrivers.pop()
+  return newDrivers
+}
