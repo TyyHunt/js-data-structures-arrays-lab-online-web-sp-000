@@ -35,7 +35,7 @@ function removeLastDriver() {
   return newDrivers
 }
 
-function removeFristDriver() {
+function removeFirstDriver() {
   let newDrivers = drivers.slice()
   newDrivers.shift()
   return newDrivers
