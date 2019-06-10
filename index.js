@@ -19,6 +19,7 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver() {
   let newDrivers = drivers.slice()
+  newDrivers.push('Broom')
   return newDrivers
 }
 
